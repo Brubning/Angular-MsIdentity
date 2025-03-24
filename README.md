@@ -1,7 +1,11 @@
 # Angular-MsIdentity
 Worked example of Angular MSAL and WebAPI MS Identity integration for authentication with Microsoft Entra ID.
 
-## Create a Registered Application
+## Configure Microsoft Entra ID
+
+Sign up for a developer instance at https://developer.microsoft.com/en-us/microsoft-365/dev-program.
+
+### Create a Registered Application
 
 The registered application creates the logical end-point that controls authentication of users against the Entra ID directory.
 
@@ -13,7 +17,7 @@ The registered application creates the logical end-point that controls authentic
     3. Redirect URI e.g. http://localhost:4200/userprofile
 4. Click *Register*
 
-## Expose an API
+### Expose an API
 
 Exposing the API allows for creation of managed scopes which are used during the authentication and authorization flow to verify claims.
 
