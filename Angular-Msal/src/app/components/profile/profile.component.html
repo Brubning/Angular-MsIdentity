@@ -1,0 +1,27 @@
+<button (click)="callWebApi()">Call WebApi (No auth)</button>
+
+<br/>
+<br/>
+
+<button (click)="callWebApiAuth()">Call WebApi (Auth)</button>
+
+<br/>
+<br/>
+
+<button (click)="logout()">Log OUT</button>
+
+<br/>
+<br/>
+
+{{user() | json}}
+
+<br/>
+
+@if (profile() != null){
+<div>
+    <p><strong>First Name: </strong> {{profile()?.givenName}}</p>
+    <p><strong>Last Name: </strong> {{profile()?.surname}}</p>
+    <p><strong>Email: </strong> {{profile()?.userPrincipalName}}</p>
+    <p><strong>Id: </strong> {{profile()?.id}}</p>
+</div>
+}

@@ -1,2 +1,2 @@
 # Angular-MsIdentity
-Worked example of MSAL (Angular) and MS Identity (ASP.NET Core) for Microsoft Entra ID authentication
+Worked example of Angular MSAL and WebAPI MS Identity integration for authentication with Microsoft Entra ID.
